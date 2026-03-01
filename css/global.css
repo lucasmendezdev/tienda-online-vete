@@ -353,56 +353,80 @@ body {
 /* ===============================
    DESTACADOS
 =============================== */
-
 .destacados {
-  padding: 60px 20px;
-  max-width: 1300px;
+  padding: 4rem 0;
+  text-align: center;
+  background: var(--color-blanco);
+}
+.titulo-servicios{
+  padding: 40px;
+  color: var(--color-primario);
+
+}
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 95%;
   margin: auto;
 }
 
-.destacados h2 {
-  text-align: center;
-  margin-bottom: 40px;
-  font-size: 28px;
-  color: #000000;
-}
-
-.destacados-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
-  gap: 30px;
+.carousel-track {
+  display: flex;
+  gap: 1.5rem;
+  transition: transform 0.5s ease;
 }
 
 .destacado-card {
-  text-align: center;
-
-  border: 1px solid #eee;
-  padding: 15px;
-
-  transition: all 0.2s ease;
+  min-width: 300px;
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease;
 }
 
 .destacado-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+  transform: translateY(-8px);
 }
 
 .destacado-card img {
   width: 100%;
-  height: 260px;
+  height: 200px;
   object-fit: cover;
-  margin-bottom: 10px;
 }
 
 .destacado-card h3 {
-  font-size: 15px;
-  margin-bottom: 5px;
-}
-
-.destacado-card p {
+  padding: 1rem;
   font-weight: 600;
 }
 
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--color-primario);
+  color: white;
+  border: none;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 20px;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.carousel-btn:hover {
+  background: var(--color-primario-oscuro);
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
 
 /* ===============================
    HEADER RESPONSIVE MEJORADO
