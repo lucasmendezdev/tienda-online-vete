@@ -4,7 +4,7 @@ const productos = [
     nombre: "DR COSSIA ADULTO",
     precio: 12000,
     categoria: "alimentoPerro",
-    tipo: "remera",
+    tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/drCossiaAdulto.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -14,7 +14,7 @@ const productos = [
     nombre: "DR COSSIA CACHORRO",
     precio: 12000,
     categoria: "alimentoPerro",
-    tipo: "remera",
+    tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/drCossiaCachorro.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -24,7 +24,7 @@ const productos = [
     nombre: "DR COSSIA CLASSIC CAT",
     precio: 22000,
     categoria: "alimentoGato",
-    tipo: "buzo",
+    tipo: "alimentoGato",
     imagen: "assets/img/alimentos/drCossiaClassicCat.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -34,7 +34,7 @@ const productos = [
     nombre: "SABROSITOS GATO",
     precio: 22000,
     categoria: "alimentoGato",
-    tipo: "buzo",
+    tipo: "alimentoGato",
     imagen: "assets/img/alimentos/sabrositosGato.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -45,7 +45,7 @@ const productos = [
     nombre: "SABROSITOS CACHORRO",
     precio: 12000,
     categoria: "alimentoPerro",
-    tipo: "remera",
+    tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/sabrositosCachorro.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -55,7 +55,7 @@ const productos = [
     nombre: "SABROSITOS CACHORRO",
     precio: 12000,
     categoria: "alimentoPerro",
-    tipo: "remera",
+    tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/sabrositosAdulto.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -65,7 +65,7 @@ const productos = [
     nombre: "AGILITY ADULTO",
     precio: 22000,
     categoria: "alimentoGato",
-    tipo: "buzo",
+    tipo: "alimentoGato",
     imagen: "assets/img/alimentos/agilityGatoAdulto.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
@@ -74,7 +74,7 @@ const productos = [
     nombre: "AGILITY KITTEN",
     precio: 22000,
     categoria: "alimentoGato",
-    tipo: "buzo",
+    tipo: "alimentoGato",
     imagen: "assets/img/alimentos/agilityGatoKitten.png",
     talles: ["M", "L", "XL"],
     descripcion: "Este alimento tiene un 30% de proteina."
