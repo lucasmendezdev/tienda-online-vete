@@ -115,7 +115,7 @@
   padding: 10px;
   margin: 15px 0;
 
-  background: #ffffff;
+  background: var(--color-blanco);
   border: 1px solid #eee;
 
   border-radius: 4px;
@@ -157,7 +157,7 @@
   padding: 12px;
   margin-top: 15px;
 
-  background: #000;
+  background: var(--color-primario);
   color: #fff;
 
   border: none;
@@ -172,7 +172,7 @@
 }
 
 .btn-pagar:hover {
-  background: #222;
+  background: var(--color-primario-oscuro);
 }
 
 .btn-pagar:active {

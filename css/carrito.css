@@ -77,7 +77,7 @@
 
 .resumen .btn {
   padding: 14px 30px;
-  background: #000;
+  background: var(--color-primario);
   color: #fff;
   border: none;
   text-decoration: none;
@@ -86,7 +86,7 @@
 }
 
 .btn:hover {
-  background: #111;
+  background: var(--color-primario-oscuro);
   transform: translateY(-2px);
 }
 
