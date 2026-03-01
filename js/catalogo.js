@@ -16,11 +16,7 @@ function renderizarCatalogo(lista) {
       <h3>${producto.nombre}</h3>
       <p class="precio">$${producto.precio.toLocaleString()}</p>
 
-      <div class="talles">
-        ${producto.talles.map(t => 
-          `<button class="talle-btn" data-talle="${t}">${t}</button>`
-        ).join("")}
-      </div>
+      
 
       <button class="btn-agregar">Agregar al carrito</button>
     `;
@@ -40,12 +36,7 @@ function renderizarCatalogo(lista) {
 
     // Agregar
     card.querySelector(".btn-agregar").addEventListener("click", () => {
-      if (!talleSeleccionado) {
-        card.classList.add("error");
-        setTimeout(() => card.classList.remove("error"), 400);
-        mostrarToast("¡TE OLVIDASTE DEL TALLE!", "warning");
-        return;
-      }
+      
 
       agregarAlCarrito(producto, talleSeleccionado);
       mostrarToast("PRODUCTO AGREGADO ✔", "success");

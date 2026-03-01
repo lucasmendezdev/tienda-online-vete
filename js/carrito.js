@@ -17,7 +17,7 @@ function crearItem(item, index) {
   nombre.textContent = item.nombre;
 
   const talle = document.createElement("span");
-  talle.textContent = `Talle: ${item.talle}`;
+  talle.textContent = `Presentacion: ${item.talle}`;
 
   const precio = document.createElement("strong");
   precio.textContent = `$${item.precio * item.cantidad}`;

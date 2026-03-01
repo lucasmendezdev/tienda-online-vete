@@ -6,7 +6,7 @@ const productos = [
     categoria: "alimentoPerro",
     tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/drCossiaAdulto.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -16,7 +16,7 @@ const productos = [
     categoria: "alimentoPerro",
     tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/drCossiaCachorro.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -26,7 +26,7 @@ const productos = [
     categoria: "alimentoGato",
     tipo: "alimentoGato",
     imagen: "assets/img/alimentos/drCossiaClassicCat.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -36,7 +36,7 @@ const productos = [
     categoria: "alimentoGato",
     tipo: "alimentoGato",
     imagen: "assets/img/alimentos/sabrositosGato.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   }
   ,
@@ -47,7 +47,7 @@ const productos = [
     categoria: "alimentoPerro",
     tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/sabrositosCachorro.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -57,7 +57,7 @@ const productos = [
     categoria: "alimentoPerro",
     tipo: "alimentoPerro",
     imagen: "assets/img/alimentos/sabrositosAdulto.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -67,7 +67,7 @@ const productos = [
     categoria: "alimentoGato",
     tipo: "alimentoGato",
     imagen: "assets/img/alimentos/agilityGatoAdulto.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   },
   {
@@ -76,7 +76,7 @@ const productos = [
     categoria: "alimentoGato",
     tipo: "alimentoGato",
     imagen: "assets/img/alimentos/agilityGatoKitten.png",
-    talles: ["M", "L", "XL"],
+    talles: ["20KG", "15KG", "10KG"],
     descripcion: "Este alimento tiene un 30% de proteina."
   }
 ];
