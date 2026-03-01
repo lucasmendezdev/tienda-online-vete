@@ -18,7 +18,7 @@
 }
 
 .filtro-btn.active {
-  background: #000;
+  background: var(--color-primario);
   color: #fff;
 }
 
@@ -34,7 +34,7 @@
 
   display: grid;
 
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
 
   gap: 30px;
 
@@ -83,7 +83,7 @@
 }
 
 .talle-btn.active {
-  background: #000;
+  background:var(--color-primario);
   color: #fff;
 }
 
@@ -95,7 +95,7 @@
 .btn-agregar {
   width: 100%;
   padding: 8px;
-  background: #000;
+  background: var(--color-primario);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -293,7 +293,7 @@
 @media (max-width: 450px) {
 
   .catalogo-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: repeat(2, 1fr);
   }
 
 }
@@ -341,7 +341,7 @@
   }
 
   .filtros-mobile-btn button {
-    background: #111;
+    background: var(--color-primario);
     color: #fff;
 
     border: none;
@@ -411,7 +411,7 @@
   /* Activo */
 
   .filtro-btn.active {
-    background: #111;
+    background: var(--color-primario);
     color: #fff;
 
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
