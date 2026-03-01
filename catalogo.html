@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo | Tienda</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/carrito.css">
+  <link rel="stylesheet" href="css/catalogo.css">
+  <link rel="stylesheet" href="css/producto.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+  <div class="header__logo">
+    <a href="index.html">TIENDA</a>
+  </div>
+
+  <nav class="header__nav">
+    <a href="index.html">Inicio</a>
+    <a href="catalogo.html">Catálogo</a>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="carrito.html">
+      Carrito <span id="contadorCarrito">0</span>
+    </a>
+  </nav>
+  </header>
+
+  <!-- FILTROS MOBILE -->
+
+<div class="filtros-mobile-btn">
+  <button id="btnToggleFiltros">
+     Filtrar 🔍
+  </button>
+</div>
+
+
+  <!-- FILTROS -->
+ <section class="filtros-top" id="filtrosTop">
+    <button class="filtro-btn active" data-tipo="todos">Todos</button>
+    <button class="filtro-btn" data-tipo="remera">Remeras</button>
+    <button class="filtro-btn" data-tipo="buzo">Buzos</button>
+    <button class="filtro-btn" data-tipo="pantalon">Pantalones</button>
+  </section>
+
+  <!-- CATALOGO -->
+  <main>
+    <section id="catalogo" class="catalogo-grid"></section>
+  </main>
+
+
+  <footer class="footer">
+  <p>© 2026 - Tienda de Ropa</p>
+  </footer>
+
+  <!-- SCRIPTS (ORDEN IMPORTANTE) -->
+  <script src="js/header.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/catalogo.js"></script>
+  <script src="js/checkout.js"></script>
+</body>
+</html>
