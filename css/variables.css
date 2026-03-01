@@ -1,9 +1,27 @@
 :root {
-  --color-principal: #000;
-  --color-secundario: #777;
-  --color-fondo: #fff;
-  --color-boton: #000;
-  --color-boton-texto: #fff;
 
-  --fuente: 'Inter', sans-serif;
+  /* Colores principales */
+  --color-primario: #00c853;
+  --color-primario-oscuro: #078137;
+  --color-secundario: #aa22c5;
+  --color-oscuro: #111;
+  --color-light: #f8fafc;
+  --color-gray: #777;
+  --color-blanco: #ffffff;
+
+  /* Tipografía */
+  --font-main: 'Inter', sans-serif;
+
+  /* Sombras */
+  --shadow-soft: 0 8px 20px rgba(0,0,0,0.05);
+  --shadow-medium: 0 4px 15px rgba(0,0,0,0.4);
+
+  /* Bordes */
+  --radius-small: 10px;
+  --radius-medium: 16px;
+  --radius-large: 30px;
+
+  /* Transiciones */
+  --transition: 0.3s ease;
+
 }

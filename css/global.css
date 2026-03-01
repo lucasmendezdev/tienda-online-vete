@@ -121,7 +121,11 @@ body {
 
   padding: 40px 20px;
 
-  background: #fff;
+  background:
+    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
+    url("../assets/img/flayers/pablo1.png") center/cover no-repeat;
+
+  color:var(--color-blanco);
 }
 
 
@@ -134,7 +138,7 @@ body {
 
   margin-bottom: 15px;
 
-  color: #111;
+  color: var(--color-blanco);
 }
 
 
@@ -142,7 +146,7 @@ body {
 
 .hero p {
   font-size: 18px;
-  color: #555;
+  color: #f9f6f6;
 
   max-width: 500px;
 
@@ -157,8 +161,8 @@ body {
 
   padding: 14px 36px;
 
-  background: #000;
-  color: #fff;
+  background: var(--color-primario);
+  color: var(--color-blanco);
 
   text-decoration: none;
   font-size: 14px;
@@ -171,7 +175,7 @@ body {
 }
 
 .hero .btn:hover {
-  background: #111;
+  background: var(--color-primario-oscuro);
   transform: translateY(-2px);
 }
 
