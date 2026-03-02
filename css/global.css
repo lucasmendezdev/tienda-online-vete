@@ -93,82 +93,6 @@
 }
 
 /* ===============================
-   HERO HOME
-=============================== */
-
-.hero {
-  min-height: calc(100vh - 64px); /* Resta el header */
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  text-align: center;
-
-  padding: 40px 20px;
-
-  background:
-    linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)),
-    url("../assets/img/flayers/pablo1.png") center/cover no-repeat;
-
-  color:var(--color-blanco);
-}
-
-
-/* TITULO */
-
-.hero h1 {
-  font-size: 42px;
-  font-weight: 900;
-  font-family: var(--font-main2);
-  letter-spacing: -0.5px;
-
-  margin-bottom: 15px;
-
-  color: var(--color-blanco);
-}
-
-
-/* TEXTO */
-
-.hero p {
-  font-size: 18px;
-  color: #f9f6f6;
-
-  max-width: 500px;
-
-  margin-bottom: 30px;
-}
-
-
-/* BOTON */
-
-.hero .btn {
-  display: inline-block;
-
-  padding: 14px 36px;
-
-  background: var(--color-primario);
-  color: var(--color-blanco);
-
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-
-  border-radius: var(--border-radius);
-
-  transition: all 0.25s ease;
-}
-
-.hero .btn:hover {
-  background: var(--color-primario-oscuro);
-  transform: translateY(-2px);
-}
-
-
-/* ===============================
    FOOTER
 =============================== */
 
@@ -189,25 +113,6 @@
 }
 
 
-/* ===============================
-   MOBILE
-=============================== */
-
-@media (max-width: 768px) {
-
-  .hero h2 {
-    font-size: 30px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-
-  .hero .btn {
-    padding: 12px 28px;
-  }
-
-}
 /* ===============================
    SLIDER FULL SCREEN
 =============================== */
