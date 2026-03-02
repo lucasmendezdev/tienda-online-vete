@@ -16,13 +16,12 @@ function crearItem(item, index) {
   const nombre = document.createElement("h3");
   nombre.textContent = item.nombre;
 
-  const talle = document.createElement("span");
-  talle.textContent = `Presentacion: ${item.talle}`;
+  
 
   const precio = document.createElement("strong");
   precio.textContent = `$${item.precio * item.cantidad}`;
 
-  info.append(nombre, talle, document.createElement("br"), precio);
+  info.append(nombre, document.createElement("br"), precio);
 
   const cantidad = document.createElement("div");
   cantidad.className = "cantidad";

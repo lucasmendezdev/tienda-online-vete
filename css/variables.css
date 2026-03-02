@@ -10,7 +10,8 @@
   --color-blanco: #ffffff;
 
   /* Tipografía */
-  --font-main: 'Inter', sans-serif;
+  --font-main:  "Open Sans", sans-serif;
+  --font-main2: "Shadows Into Light", cursive;
 
   /* Sombras */
   --shadow-soft: 0 8px 20px rgba(0,0,0,0.05);

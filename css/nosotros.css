@@ -18,7 +18,9 @@
 
 .about-right h1 {
   font-size: 2.5rem;
+  font-weight: 900;
   margin-bottom: 15px;
+  font-family: var(--font-main2);
 }
 
 .about-highlight {

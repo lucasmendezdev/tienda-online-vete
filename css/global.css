@@ -1,18 +1,4 @@
-/* ===============================
-   RESET + BASE
-=============================== */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: system-ui, sans-serif;
-}
-
-body {
-  background: #fff;
-  color: #111;
-}
 
 
 /* ===============================
@@ -45,6 +31,7 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   color: #000;
+  font-family: var(--font-main2);
 }
 
 /* NAV */
@@ -131,9 +118,10 @@ body {
 
 /* TITULO */
 
-.hero h2 {
+.hero h1 {
   font-size: 42px;
-  font-weight: 700;
+  font-weight: 900;
+  font-family: var(--font-main2);
   letter-spacing: -0.5px;
 
   margin-bottom: 15px;
@@ -360,7 +348,8 @@ body {
 }
 .titulo-servicios{
   padding: 40px;
-  color: var(--color-primario);
+  color: var(--color-oscuro);
+  font-weight: 900;
 
 }
 .carousel-container {
