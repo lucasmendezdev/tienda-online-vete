@@ -1,0 +1,138 @@
+/* ==========================================
+   SUCURSALES - Estilo Moderno 2026
+========================================== */
+
+.sucursales {
+  padding: 90px 20px;
+  background: var(--color-blanco);
+}
+
+.sucursales-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.sucursales-header .tag {
+  display: inline-block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-oscuro);
+  margin-bottom: 10px;
+}
+
+.sucursales-header h2 {
+  font-size: 35px;
+  margin-bottom: 10px;
+  color: var(--color-secundario);
+}
+
+/* GRID */
+
+.sucursales-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 55px;
+}
+
+/* CARD */
+
+.sucursal-card {
+  position: relative;
+  height: 320px;
+  border-radius: 18px;
+  overflow: hidden;
+
+  text-decoration: none;
+  color: var(--color-blanco);
+
+  display: flex;
+  align-items: flex-end;
+
+  transition: transform 0.35s ease;
+}
+
+.sucursal-card:hover {
+  transform: translateY(-8px);
+}
+
+/* Imagen fondo */
+
+.sucursal-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+
+  transition: transform 0.6s ease;
+}
+
+.sucursal-card:hover .sucursal-bg {
+  transform: scale(1.08);
+}
+
+/* Overlay */
+
+.sucursal-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0,0,0,0.75) 10%,
+    rgba(0,0,0,0.3) 60%,
+    transparent 100%
+  );
+}
+
+/* Contenido */
+
+.sucursal-content {
+  position: relative;
+  z-index: 2;
+  padding: 25px;
+}
+
+.sucursal-content h3 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.sucursal-content span {
+  font-size: 14px;
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.sucursal-card:hover .sucursal-content span {
+  opacity: 1;
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 768px) {
+
+  .sucursales {
+    padding: 60px 15px;
+  }
+
+  .sucursales-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .sucursal-card {
+    height: 240px;
+  }
+
+  .sucursales-header h2 {
+    font-size: 24px;
+  }
+
+}
