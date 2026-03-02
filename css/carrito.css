@@ -82,7 +82,7 @@
   border: none;
   text-decoration: none;
   transition: all 0.25s ease;
-  border-radius: 2px;
+  border-radius:var(--border-radius);
 }
 
 .btn:hover {
