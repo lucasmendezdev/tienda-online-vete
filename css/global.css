@@ -361,17 +361,20 @@
 
 .carousel-track {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
   gap: 1.5rem;
   transition: transform 0.5s ease;
 }
 
 .destacado-card {
   min-width: 300px;
-  background: white;
+  background:var(--color-gray);
   border-radius: 16px;
   overflow: hidden;
   box-shadow: 20px rgba(0,0,0,0.08);
   transition: transform 0.3s ease;
+  color: var(--color-blanco);
 }
 
 .destacado-card:hover {

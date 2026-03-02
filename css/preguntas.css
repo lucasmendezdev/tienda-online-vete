@@ -1,0 +1,83 @@
+/* =========================
+   FAQ SECTION
+========================= */
+
+.faq {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.faq-container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.faq h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+  color: #1e293b;
+}
+
+.faq-subtitle {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #64748b;
+}
+
+/* FAQ ITEM */
+
+.faq-item {
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  background: #ffffff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+/* Hide checkbox */
+.faq-item input {
+  display: none;
+}
+
+/* Question */
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #0f172a;
+  transition: background 0.3s;
+}
+
+.faq-question:hover {
+  background: #f1f5f9;
+}
+
+.faq-question .icon {
+  font-size: 1.5rem;
+  transition: transform 0.3s;
+}
+
+/* Answer */
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  padding: 0 20px;
+  font-size: 0.95rem;
+  color: #475569;
+  transition: all 0.4s ease;
+}
+
+/* When checked */
+.faq-item input:checked ~ .faq-answer {
+  max-height: 200px;
+  padding: 0 20px 20px;
+}
+
+.faq-item input:checked ~ .faq-question .icon {
+  transform: rotate(45deg);
+}
