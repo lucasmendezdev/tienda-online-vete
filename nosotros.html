@@ -18,6 +18,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css"/>
+
 </head>
 
 <body>
@@ -52,7 +54,7 @@
   <section class="about-split">
 
     <div class="about-left">
-      <img src="assets/img/flayers/flayer3.png" alt="Equipo veterinario">
+      <img src="assets/img/flayers/flayer3.png" alt="Equipo veterinario" data-aos="fade-right">
     </div>
 
     <div class="about-right">
@@ -109,7 +111,7 @@
       <h2>Visitá nuestras sedes</h2>
     </div>
 
-    <div class="sucursales-grid">
+    <div class="sucursales-grid" data-aos="zoom-in">
 
       <a href="https://maps.app.goo.gl/3JytyvaaXEbX8Kv27" target="_blank" class="sucursal-card">
         <div class="sucursal-bg" style="background-image: url('assets/img/sucursales/ballofet.png');"></div>
@@ -197,6 +199,14 @@
 =============================== -->
 
 <script src="js/header.js"></script>
+<script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+<script>
+AOS.init({
+  duration: 800,
+  once: true
+});
+</script>
 
 </body>
 </html>
