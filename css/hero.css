@@ -60,8 +60,8 @@
 
 .btn-primary{
   padding:12px 28px;
-  background:#3aa76d;
-  color:white;
+  background: var(--color-primario);
+  color: var(--color-blanco);
   border-radius:8px;
   text-decoration:none;
   font-weight:600;
@@ -69,20 +69,20 @@
 }
 
 .btn-primary:hover{
-  background:#2e8f5a;
+  background:var(--color-primario-oscuro);
 }
 
 .btn-secondary{
   padding:12px 28px;
   border:2px solid white;
-  color:white;
+  color:var(--color-blanco);
   border-radius:8px;
   text-decoration:none;
   transition:.3s;
 }
 
 .btn-secondary:hover{
-  background:white;
+  background:var(--color-blanco);
   color:black;
 }
 
