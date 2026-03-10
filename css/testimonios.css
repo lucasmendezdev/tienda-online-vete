@@ -1,6 +1,6 @@
 .testimonios{
   padding:80px 20px;
-  background:white;
+  background:var(--color-blanco);
 }
 
 .testimonios-container{
@@ -30,7 +30,7 @@
 /* CARD */
 
 .testimonio-card{
-  background:#f7f7f7;
+  background:var(--color-light);
   padding:30px 25px;
   border-radius:12px;
 

@@ -1,6 +1,6 @@
 .beneficios{
   padding:80px 20px;
-  background:white;
+  background:var(--color-blanco);
 }
 
 .beneficios-container{
@@ -33,7 +33,7 @@
   padding:30px 20px;
   border-radius:12px;
 
-  background:#f7f7f7;
+  background:var(--color-light);
 
   transition:.3s;
 }

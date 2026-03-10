@@ -4,7 +4,7 @@
 
 .faq {
   padding: 80px 20px;
-  background: #f8fafc;
+  background: var(--color-blanco);
 }
 
 .faq-container {
@@ -31,7 +31,7 @@
   margin-bottom: 15px;
   border-radius: 10px;
   overflow: hidden;
-  background: #ffffff;
+  background:var(--color-blanco);
   box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 
@@ -54,7 +54,7 @@
 }
 
 .faq-question:hover {
-  background: #f1f5f9;
+  background:var(--color-light);
 }
 
 .faq-question .icon {

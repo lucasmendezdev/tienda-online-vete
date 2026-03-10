@@ -1,6 +1,6 @@
 .contacto{
   padding:80px 20px;
-  background:#f7f7f7;
+  background:var(--color-blanco);
 }
 
 .contacto-container{
