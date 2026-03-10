@@ -1,17 +1,17 @@
 .hero{
   position:relative;
-  height:80vh;
+  height:90vh;
   min-height:500px;
 
   display:flex;
-  align-items:center;
+  align-items:center ;
   justify-content:center;
 
   text-align:center;
 
   background-image:url("../assets/img/flayers/pablo1.png");
   background-size:cover;
-  background-position:center;
+  background-position: 30% center;
 
   padding:20px;
 }
