@@ -76,6 +76,13 @@
   justify-content: space-between;
   align-items: center;
 }
+.resumen p{
+  font-weight: 600;
+}
+
+.resumen strong{
+  font-weight: 600;
+}
 
 .resumen .btn {
   padding: 14px 30px;
@@ -85,6 +92,7 @@
   text-decoration: none;
   transition: all 0.25s ease;
   border-radius:var(--border-radius);
+  
 }
 
 .btn:hover {
