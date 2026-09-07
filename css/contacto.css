@@ -19,11 +19,13 @@
 .contacto-info h2{
   font-size:32px;
   margin-bottom:10px;
+  font-weight:600;
 }
 
 .contacto-subtitle{
   color:#666;
   margin-bottom:30px;
+  
 }
 
 .contacto-item{
@@ -33,6 +35,7 @@
 .contacto-item strong{
   display:block;
   margin-bottom:5px;
+  font-weight:600;
 }
 
 .contacto-item span{
