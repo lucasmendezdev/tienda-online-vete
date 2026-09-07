@@ -25,7 +25,13 @@ btnEnvio.addEventListener("click", () => {
   }
 });
 
-
+function formatearPrecio(valor) {
+  return new Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS",
+    maximumFractionDigits: 0
+  }).format(valor);
+}
 
 // ===============================
 // Texto pedido
@@ -39,7 +45,7 @@ function generarTextoPedido() {
 
     texto += `
 ${item.nombre} (${item.talle}) x${item.cantidad}
-$${item.precio * item.cantidad}
+${formatearPrecio(item.precio * item.cantidad)}
 
 `;
   });
@@ -66,7 +72,7 @@ function mostrarResumen() {
 
     div.innerHTML = `
       <span>${item.nombre} (${item.talle}) x${item.cantidad}</span>
-      <span>$${item.precio * item.cantidad}</span>
+      <span>${formatearPrecio(item.precio * item.cantidad)}</span>
     `;
 
     resumen.appendChild(div);
@@ -74,7 +80,7 @@ function mostrarResumen() {
     total += item.precio * item.cantidad;
   });
 
-  totalSpan.textContent = total;
+  totalSpan.textContent = formatearPrecio(total);
 }
 
 mostrarResumen();
@@ -102,7 +108,7 @@ form.addEventListener("submit", e => {
     direccion: form.direccion?.value || "Retiro en local",
     ciudad: form.ciudad?.value || "",
     pedido: generarTextoPedido(),
-    total: total
+    total: formatearPrecio(total)
   };
 
 
@@ -133,7 +139,7 @@ Dirección: ${data.direccion}
 Pedido:
 ${data.pedido}
 
-Total: $${data.total}
+Total: ${formatearPrecio(data.total)}
 `;
 
 

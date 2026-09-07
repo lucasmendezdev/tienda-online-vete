@@ -19,7 +19,8 @@ function crearItem(item, index) {
   
 
   const precio = document.createElement("strong");
-  precio.textContent = `$${item.precio * item.cantidad}`;
+  precio.textContent = formatearPrecio(
+  item.precio * item.cantidad);
 
   info.append(nombre, document.createElement("br"), precio);
 
@@ -67,7 +68,7 @@ function render() {
 
   if (carrito.length === 0) {
     lista.textContent = "Tu carrito está vacío";
-    totalEl.textContent = "$0";
+    totalEl.textContent = formatearPrecio(total);
     return;
   }
 
@@ -80,7 +81,7 @@ function render() {
     0
   );
 
-  totalEl.textContent = `$${total}`;
+  totalEl.textContent = formatearPrecio(total);
 }
 
 function guardar() {
@@ -113,6 +114,13 @@ if (btnCheckout) {
 
 }
 
+function formatearPrecio(valor) {
+  return new Intl.NumberFormat("es-AR", {
+    style: "currency",
+    currency: "ARS",
+    maximumFractionDigits: 0
+  }).format(valor);
+}
 
 // ===============================
 // Toast warning
