@@ -29,7 +29,7 @@
 }
 
 .header__logo img{
-  height:42px;
+  height:60px;
   width:auto;
   display:block;
   object-fit:contain;
@@ -55,7 +55,7 @@
   position:relative;
 
   transition:color .2s ease;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .header__nav a:hover{
